@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		634EC2471CE1B85400E5CF6B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 634EC2461CE1B85400E5CF6B /* iAd.framework */; };
+		63CAA5571CE4F27C0022D8C0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 63CAA5561CE4F27B0022D8C0 /* icon.png */; };
 		63D269031CE07E7200D5E018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D269021CE07E7200D5E018 /* AppDelegate.swift */; };
 		63D269051CE07E7200D5E018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D269041CE07E7200D5E018 /* ViewController.swift */; };
 		63D269081CE07E7200D5E018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D269061CE07E7200D5E018 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		634EC2461CE1B85400E5CF6B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		63CAA5561CE4F27B0022D8C0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		63D268FF1CE07E7200D5E018 /* ColorTest01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorTest01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D269021CE07E7200D5E018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63D269041CE07E7200D5E018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634EC2471CE1B85400E5CF6B /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 		63D268F61CE07E7100D5E018 = {
 			isa = PBXGroup;
 			children = (
+				634EC2461CE1B85400E5CF6B /* iAd.framework */,
 				63D269011CE07E7200D5E018 /* ColorTest01 */,
 				63D269161CE07E7200D5E018 /* ColorTest01Tests */,
 				63D269211CE07E7200D5E018 /* ColorTest01UITests */,
@@ -97,6 +103,7 @@
 		63D269011CE07E7200D5E018 /* ColorTest01 */ = {
 			isa = PBXGroup;
 			children = (
+				63CAA5561CE4F27B0022D8C0 /* icon.png */,
 				63D269021CE07E7200D5E018 /* AppDelegate.swift */,
 				63D269041CE07E7200D5E018 /* ViewController.swift */,
 				63D269061CE07E7200D5E018 /* Main.storyboard */,
@@ -193,7 +200,7 @@
 				TargetAttributes = {
 					63D268FE1CE07E7200D5E018 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = CJPA6M3LJM;
+						DevelopmentTeam = 44KX7M22LP;
 					};
 					63D269121CE07E7200D5E018 = {
 						CreatedOnToolsVersion = 7.3;
@@ -232,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63CAA5571CE4F27C0022D8C0 /* icon.png in Resources */,
 				63D2690D1CE07E7200D5E018 /* LaunchScreen.storyboard in Resources */,
 				63D2690A1CE07E7200D5E018 /* Assets.xcassets in Resources */,
 				63D269081CE07E7200D5E018 /* Main.storyboard in Resources */,
@@ -378,6 +386,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Wataru Inoue (44KX7M22LP)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -393,6 +402,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "b6c6c87b-5902-43d1-a00a-a1ee77a62f6c";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -402,10 +412,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ColorTest01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wataru.ColorTest01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -413,10 +427,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ColorTest01/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wataru.ColorTest01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -485,6 +503,7 @@
 				63D269291CE07E7200D5E018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63D2692A1CE07E7200D5E018 /* Build configuration list for PBXNativeTarget "ColorTest01Tests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +512,7 @@
 				63D2692C1CE07E7200D5E018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63D2692D1CE07E7200D5E018 /* Build configuration list for PBXNativeTarget "ColorTest01UITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +521,7 @@
 				63D2692F1CE07E7200D5E018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
