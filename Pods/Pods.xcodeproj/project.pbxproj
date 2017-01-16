@@ -1,0 +1,1020 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B508DEAF96B4CAE4B94F8083AF5DED6 /* Pods-ColorTest01-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3564BF2DDADFB15550CEF0E1000104A /* Pods-ColorTest01-dummy.m */; };
+		2AC779E78291F85E0987C1B9641D1106 /* Pods-ColorTest01UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 345E79E201174BF837AD3412DA10F2E0 /* Pods-ColorTest01UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DAD1647DB9DB1769BF5DF077EFE5232 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D1460B52F38346B421F0D0B4BC7293 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		851B067AFCE3CDAF72A5BB285615B92A /* Pods-ColorTest01Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3698C40A6E1F266EE6CA94834FB0C /* Pods-ColorTest01Tests-dummy.m */; };
+		9AB3575410C56C44021604BFF167A866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9B27CB555F96B0A3C2F4135931E6B63C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A0CA35D21E8B74A2DD347784DB851FDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BE557EB8D972CB47A960B4A918A693C8 /* Pods-ColorTest01UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A944F4BBE3DFF11363EEC5675C59114 /* Pods-ColorTest01UITests-dummy.m */; };
+		CEDE3F92CD5571D0BE28C922E40890D4 /* Pods-ColorTest01-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9750DCD4836982DE74A67357A0DC7C4 /* Pods-ColorTest01-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = 17929EBD0932B03515EFF1DBB3EFEA13 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = C0FAB4F9AF625A55A4AF026EAA528FDB /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21408BD792C89D51D064629AC5ACD6D8 /* GoogleToolboxForMac-dummy.m */; };
+		FDD2F179AE5B7C614B5DADEFDE0C61B3 /* Pods-ColorTest01Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B276B519CB8B5932AE8AEF6E541EC7D5 /* Pods-ColorTest01Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05C38611369B4971BF1B336A9268AFFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17929EBD0932B03515EFF1DBB3EFEA13 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		1C19B99CBCBC74F560AEFADE2A280C31 /* Pods-ColorTest01UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ColorTest01UITests.modulemap"; sourceTree = "<group>"; };
+		212DB291F0F7A58D08651E1098A98570 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		21408BD792C89D51D064629AC5ACD6D8 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		21C8FF3D92186CCB34AA872153327B8E /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		283218DE6D1967D75CE3020CCB099488 /* Pods-ColorTest01Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorTest01Tests-resources.sh"; sourceTree = "<group>"; };
+		28EC57774980840731168C5596DAF0DD /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		2A944F4BBE3DFF11363EEC5675C59114 /* Pods-ColorTest01UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorTest01UITests-dummy.m"; sourceTree = "<group>"; };
+		33DD7153BD1285A2C349906654A58F1C /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		345E79E201174BF837AD3412DA10F2E0 /* Pods-ColorTest01UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorTest01UITests-umbrella.h"; sourceTree = "<group>"; };
+		3DAD1647DB9DB1769BF5DF077EFE5232 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		468C912C3616A2F33665381329AE9B96 /* Pods-ColorTest01UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorTest01UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4BCE64892F69BCE56C59B62A10CB95ED /* Pods-ColorTest01Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorTest01Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4CC3698C40A6E1F266EE6CA94834FB0C /* Pods-ColorTest01Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorTest01Tests-dummy.m"; sourceTree = "<group>"; };
+		53FD92CA598E31E6B1A5730DE2BB3C52 /* Pods-ColorTest01UITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorTest01UITests-resources.sh"; sourceTree = "<group>"; };
+		55D7414681E6BF19C4CB0DA680D39E38 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		57B5AB5420197AF9AD576AD2455386FE /* Pods_ColorTest01UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColorTest01UITests.framework; path = "Pods-ColorTest01UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C22725BAB242CC6FD2705AF75C1C78E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D49138531C30EEC3BA9A8A3F92D34F2 /* Pods-ColorTest01Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ColorTest01Tests.modulemap"; sourceTree = "<group>"; };
+		802D0A43A6B98C2CDC2DA2C399EA4E89 /* Pods-ColorTest01UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorTest01UITests-frameworks.sh"; sourceTree = "<group>"; };
+		839EF1371CCFB6EA1461DE53A7A30D2A /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		8639C1CE80F39902EE74E476AD7C6112 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878FAEC31CE853F9875B238A187DE4AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87CD0250B7264D463CCBFA4850AB4377 /* Pods-ColorTest01.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ColorTest01.modulemap"; sourceTree = "<group>"; };
+		8EF73F3A73F07807B962A77FA8640588 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F9AD21BC129F7692282F7073BBF8BDB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92C6E30361CB288462A4C4386B6A2927 /* Pods-ColorTest01Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorTest01Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95A13B5078ABCE2F81E1BB024C4D0BBF /* Pods_ColorTest01Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColorTest01Tests.framework; path = "Pods-ColorTest01Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C63138F8899EB0158866C7A6DD7FD4A /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		A44EBFFE4233F90AB8A8D89DADC1DDAE /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		A681266364A860DD39BC6F918AB2DCF6 /* Pods-ColorTest01-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorTest01-resources.sh"; sourceTree = "<group>"; };
+		AE64DFFCC1E2370DF984B624933C419D /* Pods_ColorTest01.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ColorTest01.framework; path = "Pods-ColorTest01.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B276B519CB8B5932AE8AEF6E541EC7D5 /* Pods-ColorTest01Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorTest01Tests-umbrella.h"; sourceTree = "<group>"; };
+		B3EBA1E5C9A35E6381807B1577AD5C70 /* Pods-ColorTest01UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorTest01UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC0EB9EEF0ADC21718D55FEDE3FAD08D /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		BC244751719DF8D73132E9209F05E110 /* Pods-ColorTest01-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorTest01-frameworks.sh"; sourceTree = "<group>"; };
+		C0FAB4F9AF625A55A4AF026EAA528FDB /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		C1D1460B52F38346B421F0D0B4BC7293 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		C3564BF2DDADFB15550CEF0E1000104A /* Pods-ColorTest01-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ColorTest01-dummy.m"; sourceTree = "<group>"; };
+		C9750DCD4836982DE74A67357A0DC7C4 /* Pods-ColorTest01-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ColorTest01-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3F2C119EFEB3603A7A03BE05BDCA527 /* Pods-ColorTest01UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorTest01UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC6865C4CD6D28363CC6CB7943286737 /* Pods-ColorTest01-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ColorTest01-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFAEC86B2757C76113AE4E526DD3A123 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		E6C22E2AFFB856877DC54F1615E416DF /* Pods-ColorTest01UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorTest01UITests.release.xcconfig"; sourceTree = "<group>"; };
+		EFBEF1850B61A73B6165708E39B200B3 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		EFC7A6E128171966844EA5C7657002C7 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		F3A96783300665EC79F04F28B0AD332F /* Pods-ColorTest01.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorTest01.debug.xcconfig"; sourceTree = "<group>"; };
+		F4CC94302CBD3FB2C243CD4ACCFC0731 /* Pods-ColorTest01Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorTest01Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F68FD0D6402192617A822FC78E0E816B /* Pods-ColorTest01.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorTest01.release.xcconfig"; sourceTree = "<group>"; };
+		F849F8E196E14F6DC0655594EA18A68E /* Pods-ColorTest01Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ColorTest01Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FAC77FEEFC6EA591F1992FF0947836FD /* Pods-ColorTest01-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ColorTest01-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBE7264409F037DA7F55D70F5C62BB33 /* Pods-ColorTest01Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ColorTest01Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F25CFC743F7FB33B40129C8173F157F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CA35D21E8B74A2DD347784DB851FDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5432A631A05A0A10F235D3BC4D833117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AB3575410C56C44021604BFF167A866 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD58FE2F00C9515A99246CAC4045723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B27CB555F96B0A3C2F4135931E6B63C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AFB3DBF8D6DE395E1CAEC00ED20E035 /* Pods-ColorTest01 */ = {
+			isa = PBXGroup;
+			children = (
+				8F9AD21BC129F7692282F7073BBF8BDB /* Info.plist */,
+				87CD0250B7264D463CCBFA4850AB4377 /* Pods-ColorTest01.modulemap */,
+				FAC77FEEFC6EA591F1992FF0947836FD /* Pods-ColorTest01-acknowledgements.markdown */,
+				DC6865C4CD6D28363CC6CB7943286737 /* Pods-ColorTest01-acknowledgements.plist */,
+				C3564BF2DDADFB15550CEF0E1000104A /* Pods-ColorTest01-dummy.m */,
+				BC244751719DF8D73132E9209F05E110 /* Pods-ColorTest01-frameworks.sh */,
+				A681266364A860DD39BC6F918AB2DCF6 /* Pods-ColorTest01-resources.sh */,
+				C9750DCD4836982DE74A67357A0DC7C4 /* Pods-ColorTest01-umbrella.h */,
+				F3A96783300665EC79F04F28B0AD332F /* Pods-ColorTest01.debug.xcconfig */,
+				F68FD0D6402192617A822FC78E0E816B /* Pods-ColorTest01.release.xcconfig */,
+			);
+			name = "Pods-ColorTest01";
+			path = "Target Support Files/Pods-ColorTest01";
+			sourceTree = "<group>";
+		};
+		0D8B3D161A0EB107B4198EA21AE24838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28EC57774980840731168C5596DAF0DD /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FA3B1BAAFB7E60713A8CA7967FD8C82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21C8FF3D92186CCB34AA872153327B8E /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FE6F250B38464ABE219B270B5934B89 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFBEF1850B61A73B6165708E39B200B3 /* GoogleToolboxForMac.modulemap */,
+				55D7414681E6BF19C4CB0DA680D39E38 /* GoogleToolboxForMac.xcconfig */,
+				21408BD792C89D51D064629AC5ACD6D8 /* GoogleToolboxForMac-dummy.m */,
+				9C63138F8899EB0158866C7A6DD7FD4A /* GoogleToolboxForMac-prefix.pch */,
+				C1D1460B52F38346B421F0D0B4BC7293 /* GoogleToolboxForMac-umbrella.h */,
+				8639C1CE80F39902EE74E476AD7C6112 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		155FC01659E42BB541A8940683940CDD /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				3DAD1647DB9DB1769BF5DF077EFE5232 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		170A95739E2CC9A867E508D35B0DFFBE /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				6D810FE86A95975CDE60658932EBFC22 /* Frameworks */,
+			);
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		3477F5851A849695024392D18358258C /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				155FC01659E42BB541A8940683940CDD /* Defines */,
+				63FE62DEF8423965A395B0ACD55C38B1 /* NSData+zlib */,
+				0FE6F250B38464ABE219B270B5934B89 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		38927A9ABC87C650D676C6EF99A3ECBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A44EBFFE4233F90AB8A8D89DADC1DDAE /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E7B8B91E5965E62689098FE95B906E2 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				A011760615BF8A67D7B27DB85C975917 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		40C6A14CB48BF506A141EA72409B9CF7 /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				C19407753FF70697E74C5BBFB6BF4581 /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		5F83435F876A88A56E849E9304069B43 /* Pods-ColorTest01UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C22725BAB242CC6FD2705AF75C1C78E /* Info.plist */,
+				1C19B99CBCBC74F560AEFADE2A280C31 /* Pods-ColorTest01UITests.modulemap */,
+				468C912C3616A2F33665381329AE9B96 /* Pods-ColorTest01UITests-acknowledgements.markdown */,
+				D3F2C119EFEB3603A7A03BE05BDCA527 /* Pods-ColorTest01UITests-acknowledgements.plist */,
+				2A944F4BBE3DFF11363EEC5675C59114 /* Pods-ColorTest01UITests-dummy.m */,
+				802D0A43A6B98C2CDC2DA2C399EA4E89 /* Pods-ColorTest01UITests-frameworks.sh */,
+				53FD92CA598E31E6B1A5730DE2BB3C52 /* Pods-ColorTest01UITests-resources.sh */,
+				345E79E201174BF837AD3412DA10F2E0 /* Pods-ColorTest01UITests-umbrella.h */,
+				B3EBA1E5C9A35E6381807B1577AD5C70 /* Pods-ColorTest01UITests.debug.xcconfig */,
+				E6C22E2AFFB856877DC54F1615E416DF /* Pods-ColorTest01UITests.release.xcconfig */,
+			);
+			name = "Pods-ColorTest01UITests";
+			path = "Target Support Files/Pods-ColorTest01UITests";
+			sourceTree = "<group>";
+		};
+		63A57EFCCF1BD2C07BCF08C6EB350B8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EF73F3A73F07807B962A77FA8640588 /* GoogleToolboxForMac.framework */,
+				AE64DFFCC1E2370DF984B624933C419D /* Pods_ColorTest01.framework */,
+				95A13B5078ABCE2F81E1BB024C4D0BBF /* Pods_ColorTest01Tests.framework */,
+				57B5AB5420197AF9AD576AD2455386FE /* Pods_ColorTest01UITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63FE62DEF8423965A395B0ACD55C38B1 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				17929EBD0932B03515EFF1DBB3EFEA13 /* GTMNSData+zlib.h */,
+				C0FAB4F9AF625A55A4AF026EAA528FDB /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		6B7E43A23A0D54B793BE6E1149C3A0E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E7B8B91E5965E62689098FE95B906E2 /* Firebase */,
+				6D82571B19CD3E4C2286E01B925B4C66 /* FirebaseAnalytics */,
+				40C6A14CB48BF506A141EA72409B9CF7 /* FirebaseCore */,
+				170A95739E2CC9A867E508D35B0DFFBE /* FirebaseDatabase */,
+				6F9121D4F3383D00A9139232E11CF463 /* FirebaseInstanceID */,
+				9C2FEBE126B466F91A38BF105D7D7382 /* Google-Mobile-Ads-SDK */,
+				E0D50380B90E7291A58433BE6A006512 /* GoogleInterchangeUtilities */,
+				E866339ECFE13A72BA907ECB59D01E92 /* GoogleSymbolUtilities */,
+				3477F5851A849695024392D18358258C /* GoogleToolboxForMac */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D810FE86A95975CDE60658932EBFC22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFC7A6E128171966844EA5C7657002C7 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D82571B19CD3E4C2286E01B925B4C66 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				0D8B3D161A0EB107B4198EA21AE24838 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		6F9121D4F3383D00A9139232E11CF463 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				839EF1371CCFB6EA1461DE53A7A30D2A /* FIRInstanceID.h */,
+				38927A9ABC87C650D676C6EF99A3ECBB /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		746ECAAC1BFDC140816DB364F56BEAE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFAEC86B2757C76113AE4E526DD3A123 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6B7E43A23A0D54B793BE6E1149C3A0E1 /* Pods */,
+				63A57EFCCF1BD2C07BCF08C6EB350B8C /* Products */,
+				F4B44B5B7DDA257766731469AEA18081 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9C2FEBE126B466F91A38BF105D7D7382 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				B384D0319ACCAE8EF9528E76F4CA4287 /* Frameworks */,
+			);
+			name = "Google-Mobile-Ads-SDK";
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		A011760615BF8A67D7B27DB85C975917 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				212DB291F0F7A58D08651E1098A98570 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		AA3950277434CDB8172FC9F65D610DBD /* Pods-ColorTest01Tests */ = {
+			isa = PBXGroup;
+			children = (
+				878FAEC31CE853F9875B238A187DE4AB /* Info.plist */,
+				7D49138531C30EEC3BA9A8A3F92D34F2 /* Pods-ColorTest01Tests.modulemap */,
+				F4CC94302CBD3FB2C243CD4ACCFC0731 /* Pods-ColorTest01Tests-acknowledgements.markdown */,
+				4BCE64892F69BCE56C59B62A10CB95ED /* Pods-ColorTest01Tests-acknowledgements.plist */,
+				4CC3698C40A6E1F266EE6CA94834FB0C /* Pods-ColorTest01Tests-dummy.m */,
+				FBE7264409F037DA7F55D70F5C62BB33 /* Pods-ColorTest01Tests-frameworks.sh */,
+				283218DE6D1967D75CE3020CCB099488 /* Pods-ColorTest01Tests-resources.sh */,
+				B276B519CB8B5932AE8AEF6E541EC7D5 /* Pods-ColorTest01Tests-umbrella.h */,
+				92C6E30361CB288462A4C4386B6A2927 /* Pods-ColorTest01Tests.debug.xcconfig */,
+				F849F8E196E14F6DC0655594EA18A68E /* Pods-ColorTest01Tests.release.xcconfig */,
+			);
+			name = "Pods-ColorTest01Tests";
+			path = "Target Support Files/Pods-ColorTest01Tests";
+			sourceTree = "<group>";
+		};
+		B384D0319ACCAE8EF9528E76F4CA4287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33DD7153BD1285A2C349906654A58F1C /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C19407753FF70697E74C5BBFB6BF4581 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC0EB9EEF0ADC21718D55FEDE3FAD08D /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0D50380B90E7291A58433BE6A006512 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				746ECAAC1BFDC140816DB364F56BEAE2 /* Frameworks */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		E866339ECFE13A72BA907ECB59D01E92 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0FA3B1BAAFB7E60713A8CA7967FD8C82 /* Frameworks */,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		F4B44B5B7DDA257766731469AEA18081 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AFB3DBF8D6DE395E1CAEC00ED20E035 /* Pods-ColorTest01 */,
+				AA3950277434CDB8172FC9F65D610DBD /* Pods-ColorTest01Tests */,
+				5F83435F876A88A56E849E9304069B43 /* Pods-ColorTest01UITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		330F926D02C820A185CBA5551A3806AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDE3F92CD5571D0BE28C922E40890D4 /* Pods-ColorTest01-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36329DE15991486AED6FB358B804CDA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD2F179AE5B7C614B5DADEFDE0C61B3 /* Pods-ColorTest01Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D385AE8FF262048BD04A608E0618509C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC779E78291F85E0987C1B9641D1106 /* Pods-ColorTest01UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = 8EF73F3A73F07807B962A77FA8640588 /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB3E76D7D209FFE4209355E4D8BE08DB /* Pods-ColorTest01Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88B88C740E03D067672C39839BC49552 /* Build configuration list for PBXNativeTarget "Pods-ColorTest01Tests" */;
+			buildPhases = (
+				C63A4FA06661D5900E687E46D7EF12F4 /* Sources */,
+				ABD58FE2F00C9515A99246CAC4045723 /* Frameworks */,
+				36329DE15991486AED6FB358B804CDA8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ColorTest01Tests";
+			productName = "Pods-ColorTest01Tests";
+			productReference = 95A13B5078ABCE2F81E1BB024C4D0BBF /* Pods_ColorTest01Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC79EF8C156E2E4FF9DE67BF35E5C554 /* Pods-ColorTest01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D148B97C1A7B5E1AB9AD8F85F156B729 /* Build configuration list for PBXNativeTarget "Pods-ColorTest01" */;
+			buildPhases = (
+				EA16349C19FB0614F8D3E9428A7BF2E8 /* Sources */,
+				5432A631A05A0A10F235D3BC4D833117 /* Frameworks */,
+				330F926D02C820A185CBA5551A3806AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA03C42E7AA90CC115453BC46A8C9A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-ColorTest01";
+			productName = "Pods-ColorTest01";
+			productReference = AE64DFFCC1E2370DF984B624933C419D /* Pods_ColorTest01.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCE06243CE0CA74A8949686F755089B8 /* Pods-ColorTest01UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8A2363A073F41C86299FF06020B2B4F /* Build configuration list for PBXNativeTarget "Pods-ColorTest01UITests" */;
+			buildPhases = (
+				8B1D8D17486A5108ACB449B63FABBDFB /* Sources */,
+				2F25CFC743F7FB33B40129C8173F157F /* Frameworks */,
+				D385AE8FF262048BD04A608E0618509C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ColorTest01UITests";
+			productName = "Pods-ColorTest01UITests";
+			productReference = 57B5AB5420197AF9AD576AD2455386FE /* Pods_ColorTest01UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 63A57EFCCF1BD2C07BCF08C6EB350B8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				CC79EF8C156E2E4FF9DE67BF35E5C554 /* Pods-ColorTest01 */,
+				BB3E76D7D209FFE4209355E4D8BE08DB /* Pods-ColorTest01Tests */,
+				FCE06243CE0CA74A8949686F755089B8 /* Pods-ColorTest01UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B1D8D17486A5108ACB449B63FABBDFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE557EB8D972CB47A960B4A918A693C8 /* Pods-ColorTest01UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63A4FA06661D5900E687E46D7EF12F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851B067AFCE3CDAF72A5BB285615B92A /* Pods-ColorTest01Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA16349C19FB0614F8D3E9428A7BF2E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B508DEAF96B4CAE4B94F8083AF5DED6 /* Pods-ColorTest01-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AA03C42E7AA90CC115453BC46A8C9A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = 05C38611369B4971BF1B336A9268AFFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22860BBADB54D8C68A44C3B904950A5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68FD0D6402192617A822FC78E0E816B /* Pods-ColorTest01.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ColorTest01/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ColorTest01/Pods-ColorTest01.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ColorTest01;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3464554A7795B206CCE5831F8A2372FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3EBA1E5C9A35E6381807B1577AD5C70 /* Pods-ColorTest01UITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ColorTest01UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ColorTest01UITests/Pods-ColorTest01UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ColorTest01UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36706F48C5FAC013AFF78ACCA056BCEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C22E2AFFB856877DC54F1615E416DF /* Pods-ColorTest01UITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ColorTest01UITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ColorTest01UITests/Pods-ColorTest01UITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ColorTest01UITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51FB162904B214D9DF7DD04536B66002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F849F8E196E14F6DC0655594EA18A68E /* Pods-ColorTest01Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ColorTest01Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ColorTest01Tests/Pods-ColorTest01Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ColorTest01Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8263C85F8B4BEA11CF49676B00F2A47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3A96783300665EC79F04F28B0AD332F /* Pods-ColorTest01.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ColorTest01/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ColorTest01/Pods-ColorTest01.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ColorTest01;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		93D83276DC029BEF7DE23EE90B353623 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C6E30361CB288462A4C4386B6A2927 /* Pods-ColorTest01Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ColorTest01Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ColorTest01Tests/Pods-ColorTest01Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ColorTest01Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D60CD877A708870E2BE96B83BA32F883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D7414681E6BF19C4CB0DA680D39E38 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F066921CBDBDB5F45795E50FBC5AC972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D7414681E6BF19C4CB0DA680D39E38 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88B88C740E03D067672C39839BC49552 /* Build configuration list for PBXNativeTarget "Pods-ColorTest01Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D83276DC029BEF7DE23EE90B353623 /* Debug */,
+				51FB162904B214D9DF7DD04536B66002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8A2363A073F41C86299FF06020B2B4F /* Build configuration list for PBXNativeTarget "Pods-ColorTest01UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3464554A7795B206CCE5831F8A2372FB /* Debug */,
+				36706F48C5FAC013AFF78ACCA056BCEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60CD877A708870E2BE96B83BA32F883 /* Debug */,
+				F066921CBDBDB5F45795E50FBC5AC972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D148B97C1A7B5E1AB9AD8F85F156B729 /* Build configuration list for PBXNativeTarget "Pods-ColorTest01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8263C85F8B4BEA11CF49676B00F2A47B /* Debug */,
+				22860BBADB54D8C68A44C3B904950A5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
